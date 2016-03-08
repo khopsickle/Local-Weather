@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather - Open Weather API</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+  <link href='screen.css' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="container">
+    <div id="error"></div>
+    <div id="name" data-api="name"></div>
+    <div id="temp" data-api="main.temp"></div>
+    <div id="desc" data-api="weather[0].main">
+
+    </div>
+    <div class="btn" id="btn-units">
+      <span id="fahrenheit">F&deg;</span>
+       / <span id="celsius">C&deg;</span>
+    </div>
+  </div>
+  <div class="info">
+    <a href="http://www.freecodecamp.com/challenges/show-the-local-weather">Free Code Camp</a>, <a href="https://unsplash.com/">Unsplash Images</a>, & <a href="http://openweathermap.org/current">Open Weather Map</a>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
